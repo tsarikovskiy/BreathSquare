@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		D50B4B8B205E5A490052B829 /* UIView+LoadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4B8A205E5A490052B829 /* UIView+LoadNib.swift */; };
 		D50B4B8D205E5A640052B829 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4B8C205E5A640052B829 /* NibView.swift */; };
+		D50B4B92205E5D270052B829 /* DataLoaderServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4B91205E5D270052B829 /* DataLoaderServiceImpl.swift */; };
+		D50B4B94205E5D510052B829 /* DataLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4B93205E5D510052B829 /* DataLoaderService.swift */; };
+		D50B4B96205E60A50052B829 /* BreathLessonModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4B95205E60A50052B829 /* BreathLessonModuleInput.swift */; };
+		D50B4B9E205E61330052B829 /* BreathLessonViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4B9D205E61330052B829 /* BreathLessonViewInput.swift */; };
+		D50B4BA0205E61410052B829 /* BreathLessonViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4B9F205E61410052B829 /* BreathLessonViewOutput.swift */; };
+		D50B4BA2205E622C0052B829 /* BreathLessonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4BA1205E622C0052B829 /* BreathLessonPresenter.swift */; };
+		D50B4BA4205E62920052B829 /* BreathLessonInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4BA3205E62920052B829 /* BreathLessonInteractorOutput.swift */; };
+		D50B4BA6205E62980052B829 /* BreathLessonInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4BA5205E62980052B829 /* BreathLessonInteractorInput.swift */; };
+		D50B4BA8205E62BA0052B829 /* BreathLessonInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4BA7205E62BA0052B829 /* BreathLessonInteractor.swift */; };
+		D50B4BAA205E63B10052B829 /* BreathLessonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4BA9205E63B10052B829 /* BreathLessonFactory.swift */; };
 		D52A4374205D74D100AA7CCF /* breath.json in Resources */ = {isa = PBXBuildFile; fileRef = D52A4351205D74D100AA7CCF /* breath.json */; };
 		D584F249205D798200DB4BBC /* Breath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584F248205D798200DB4BBC /* Breath.swift */; };
 		D584F24D205D81BA00DB4BBC /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584F24C205D81BA00DB4BBC /* SquareView.swift */; };
 		D584F24F205D81DD00DB4BBC /* SquareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D584F24E205D81DD00DB4BBC /* SquareView.xib */; };
 		D5C0C014205D6D1B0001F262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C0C013205D6D1B0001F262 /* AppDelegate.swift */; };
-		D5C0C016205D6D1B0001F262 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C0C015205D6D1B0001F262 /* ViewController.swift */; };
-		D5C0C019205D6D1B0001F262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C0C017205D6D1B0001F262 /* Main.storyboard */; };
+		D5C0C016205D6D1B0001F262 /* BreathLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C0C015205D6D1B0001F262 /* BreathLessonViewController.swift */; };
+		D5C0C019205D6D1B0001F262 /* BreathLesson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C0C017205D6D1B0001F262 /* BreathLesson.storyboard */; };
 		D5C0C01B205D6D1B0001F262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C0C01A205D6D1B0001F262 /* Assets.xcassets */; };
 		D5C0C01E205D6D1B0001F262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C0C01C205D6D1B0001F262 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -23,14 +33,24 @@
 /* Begin PBXFileReference section */
 		D50B4B8A205E5A490052B829 /* UIView+LoadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LoadNib.swift"; sourceTree = "<group>"; };
 		D50B4B8C205E5A640052B829 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		D50B4B91205E5D270052B829 /* DataLoaderServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderServiceImpl.swift; sourceTree = "<group>"; };
+		D50B4B93205E5D510052B829 /* DataLoaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderService.swift; sourceTree = "<group>"; };
+		D50B4B95205E60A50052B829 /* BreathLessonModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonModuleInput.swift; sourceTree = "<group>"; };
+		D50B4B9D205E61330052B829 /* BreathLessonViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonViewInput.swift; sourceTree = "<group>"; };
+		D50B4B9F205E61410052B829 /* BreathLessonViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonViewOutput.swift; sourceTree = "<group>"; };
+		D50B4BA1205E622C0052B829 /* BreathLessonPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonPresenter.swift; sourceTree = "<group>"; };
+		D50B4BA3205E62920052B829 /* BreathLessonInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonInteractorOutput.swift; sourceTree = "<group>"; };
+		D50B4BA5205E62980052B829 /* BreathLessonInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonInteractorInput.swift; sourceTree = "<group>"; };
+		D50B4BA7205E62BA0052B829 /* BreathLessonInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonInteractor.swift; sourceTree = "<group>"; };
+		D50B4BA9205E63B10052B829 /* BreathLessonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonFactory.swift; sourceTree = "<group>"; };
 		D52A4351205D74D100AA7CCF /* breath.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breath.json; sourceTree = "<group>"; };
 		D584F248205D798200DB4BBC /* Breath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breath.swift; sourceTree = "<group>"; };
 		D584F24C205D81BA00DB4BBC /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 		D584F24E205D81DD00DB4BBC /* SquareView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquareView.xib; sourceTree = "<group>"; };
 		D5C0C010205D6D1B0001F262 /* BreathSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C0C013205D6D1B0001F262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5C0C015205D6D1B0001F262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D5C0C018205D6D1B0001F262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5C0C015205D6D1B0001F262 /* BreathLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonViewController.swift; sourceTree = "<group>"; };
+		D5C0C018205D6D1B0001F262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BreathLesson.storyboard; sourceTree = "<group>"; };
 		D5C0C01A205D6D1B0001F262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5C0C01D205D6D1B0001F262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5C0C01F205D6D1B0001F262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,10 +83,76 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		D50B4B8F205E5C270052B829 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D50B4B98205E60DD0052B829 /* BreathLesson */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D50B4B90205E5C5E0052B829 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D50B4B91205E5D270052B829 /* DataLoaderServiceImpl.swift */,
+				D50B4B93205E5D510052B829 /* DataLoaderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D50B4B97205E60D20052B829 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D50B4B95205E60A50052B829 /* BreathLessonModuleInput.swift */,
+				D50B4BA1205E622C0052B829 /* BreathLessonPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D50B4B98205E60DD0052B829 /* BreathLesson */ = {
+			isa = PBXGroup;
+			children = (
+				D50B4B9C205E61130052B829 /* Factory */,
+				D50B4B9A205E61030052B829 /* Interactor */,
+				D50B4B97205E60D20052B829 /* Presenter */,
+				D50B4B99205E60F20052B829 /* View */,
+			);
+			path = BreathLesson;
+			sourceTree = "<group>";
+		};
+		D50B4B99205E60F20052B829 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5C0C015205D6D1B0001F262 /* BreathLessonViewController.swift */,
+				D50B4B9D205E61330052B829 /* BreathLessonViewInput.swift */,
+				D50B4B9F205E61410052B829 /* BreathLessonViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D50B4B9A205E61030052B829 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D50B4BA7205E62BA0052B829 /* BreathLessonInteractor.swift */,
+				D50B4BA3205E62920052B829 /* BreathLessonInteractorOutput.swift */,
+				D50B4BA5205E62980052B829 /* BreathLessonInteractorInput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D50B4B9C205E61130052B829 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D50B4BA9205E63B10052B829 /* BreathLessonFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		D52A4375205D750100AA7CCF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D5C0C017205D6D1B0001F262 /* Main.storyboard */,
+				D5C0C013205D6D1B0001F262 /* AppDelegate.swift */,
+				D5C0C017205D6D1B0001F262 /* BreathLesson.storyboard */,
 				D52A4351205D74D100AA7CCF /* breath.json */,
 				D5C0C01A205D6D1B0001F262 /* Assets.xcassets */,
 				D5C0C01F205D6D1B0001F262 /* Info.plist */,
@@ -78,12 +164,12 @@
 		D52A4376205D753000AA7CCF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D50B4B90205E5C5E0052B829 /* Services */,
 				D50B4B8E205E5A680052B829 /* Helpers */,
 				D50B4B89205E5A300052B829 /* Extensions */,
 				D584F24B205D81A200DB4BBC /* Views */,
 				D584F24A205D7C4D00DB4BBC /* Models */,
-				D5C0C013205D6D1B0001F262 /* AppDelegate.swift */,
-				D5C0C015205D6D1B0001F262 /* ViewController.swift */,
+				D50B4B8F205E5C270052B829 /* Modules */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -192,7 +278,7 @@
 				D52A4374205D74D100AA7CCF /* breath.json in Resources */,
 				D5C0C01E205D6D1B0001F262 /* LaunchScreen.storyboard in Resources */,
 				D5C0C01B205D6D1B0001F262 /* Assets.xcassets in Resources */,
-				D5C0C019205D6D1B0001F262 /* Main.storyboard in Resources */,
+				D5C0C019205D6D1B0001F262 /* BreathLesson.storyboard in Resources */,
 				D584F24F205D81DD00DB4BBC /* SquareView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,11 +290,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C0C016205D6D1B0001F262 /* ViewController.swift in Sources */,
+				D50B4BA8205E62BA0052B829 /* BreathLessonInteractor.swift in Sources */,
+				D50B4BA2205E622C0052B829 /* BreathLessonPresenter.swift in Sources */,
+				D5C0C016205D6D1B0001F262 /* BreathLessonViewController.swift in Sources */,
+				D50B4B9E205E61330052B829 /* BreathLessonViewInput.swift in Sources */,
+				D50B4B92205E5D270052B829 /* DataLoaderServiceImpl.swift in Sources */,
+				D50B4BA0205E61410052B829 /* BreathLessonViewOutput.swift in Sources */,
+				D50B4BAA205E63B10052B829 /* BreathLessonFactory.swift in Sources */,
 				D584F249205D798200DB4BBC /* Breath.swift in Sources */,
 				D50B4B8D205E5A640052B829 /* NibView.swift in Sources */,
+				D50B4B96205E60A50052B829 /* BreathLessonModuleInput.swift in Sources */,
+				D50B4B94205E5D510052B829 /* DataLoaderService.swift in Sources */,
+				D50B4BA6205E62980052B829 /* BreathLessonInteractorInput.swift in Sources */,
 				D50B4B8B205E5A490052B829 /* UIView+LoadNib.swift in Sources */,
 				D5C0C014205D6D1B0001F262 /* AppDelegate.swift in Sources */,
+				D50B4BA4205E62920052B829 /* BreathLessonInteractorOutput.swift in Sources */,
 				D584F24D205D81BA00DB4BBC /* SquareView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,12 +312,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D5C0C017205D6D1B0001F262 /* Main.storyboard */ = {
+		D5C0C017205D6D1B0001F262 /* BreathLesson.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D5C0C018205D6D1B0001F262 /* Base */,
 			);
-			name = Main.storyboard;
+			name = BreathLesson.storyboard;
 			sourceTree = "<group>";
 		};
 		D5C0C01C205D6D1B0001F262 /* LaunchScreen.storyboard */ = {
