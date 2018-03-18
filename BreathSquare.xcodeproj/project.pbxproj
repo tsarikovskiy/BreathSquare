@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D50B4B8B205E5A490052B829 /* UIView+LoadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4B8A205E5A490052B829 /* UIView+LoadNib.swift */; };
+		D50B4B8D205E5A640052B829 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4B8C205E5A640052B829 /* NibView.swift */; };
 		D52A4374205D74D100AA7CCF /* breath.json in Resources */ = {isa = PBXBuildFile; fileRef = D52A4351205D74D100AA7CCF /* breath.json */; };
+		D584F249205D798200DB4BBC /* Breath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584F248205D798200DB4BBC /* Breath.swift */; };
+		D584F24D205D81BA00DB4BBC /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584F24C205D81BA00DB4BBC /* SquareView.swift */; };
+		D584F24F205D81DD00DB4BBC /* SquareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D584F24E205D81DD00DB4BBC /* SquareView.xib */; };
 		D5C0C014205D6D1B0001F262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C0C013205D6D1B0001F262 /* AppDelegate.swift */; };
 		D5C0C016205D6D1B0001F262 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C0C015205D6D1B0001F262 /* ViewController.swift */; };
 		D5C0C019205D6D1B0001F262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C0C017205D6D1B0001F262 /* Main.storyboard */; };
@@ -16,7 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D50B4B8A205E5A490052B829 /* UIView+LoadNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LoadNib.swift"; sourceTree = "<group>"; };
+		D50B4B8C205E5A640052B829 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
 		D52A4351205D74D100AA7CCF /* breath.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breath.json; sourceTree = "<group>"; };
+		D584F248205D798200DB4BBC /* Breath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breath.swift; sourceTree = "<group>"; };
+		D584F24C205D81BA00DB4BBC /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		D584F24E205D81DD00DB4BBC /* SquareView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquareView.xib; sourceTree = "<group>"; };
 		D5C0C010205D6D1B0001F262 /* BreathSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C0C013205D6D1B0001F262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5C0C015205D6D1B0001F262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D50B4B89205E5A300052B829 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D50B4B8A205E5A490052B829 /* UIView+LoadNib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D50B4B8E205E5A680052B829 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D50B4B8C205E5A640052B829 /* NibView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		D52A4375205D750100AA7CCF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,10 +78,31 @@
 		D52A4376205D753000AA7CCF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D50B4B8E205E5A680052B829 /* Helpers */,
+				D50B4B89205E5A300052B829 /* Extensions */,
+				D584F24B205D81A200DB4BBC /* Views */,
+				D584F24A205D7C4D00DB4BBC /* Models */,
 				D5C0C013205D6D1B0001F262 /* AppDelegate.swift */,
 				D5C0C015205D6D1B0001F262 /* ViewController.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		D584F24A205D7C4D00DB4BBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D584F248205D798200DB4BBC /* Breath.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D584F24B205D81A200DB4BBC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D584F24C205D81BA00DB4BBC /* SquareView.swift */,
+				D584F24E205D81DD00DB4BBC /* SquareView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D5C0C007205D6D1B0001F262 = {
@@ -146,6 +193,7 @@
 				D5C0C01E205D6D1B0001F262 /* LaunchScreen.storyboard in Resources */,
 				D5C0C01B205D6D1B0001F262 /* Assets.xcassets in Resources */,
 				D5C0C019205D6D1B0001F262 /* Main.storyboard in Resources */,
+				D584F24F205D81DD00DB4BBC /* SquareView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +205,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5C0C016205D6D1B0001F262 /* ViewController.swift in Sources */,
+				D584F249205D798200DB4BBC /* Breath.swift in Sources */,
+				D50B4B8D205E5A640052B829 /* NibView.swift in Sources */,
+				D50B4B8B205E5A490052B829 /* UIView+LoadNib.swift in Sources */,
 				D5C0C014205D6D1B0001F262 /* AppDelegate.swift in Sources */,
+				D584F24D205D81BA00DB4BBC /* SquareView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BreathSquare/Info.plist;
+				INFOPLIST_FILE = BreathSquare/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = f.BreathSquare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,7 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BreathSquare/Info.plist;
+				INFOPLIST_FILE = BreathSquare/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = f.BreathSquare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
