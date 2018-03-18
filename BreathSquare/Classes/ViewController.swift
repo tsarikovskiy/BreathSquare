@@ -10,10 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  var models = [Breath]()
+
+  @IBOutlet weak var breathView: SquareView!
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
-  }
 
+    if let jsonUrl = Bundle.main.url(forResource: "breath", withExtension: "json") {
+      do {
+        let data = try Data(contentsOf: jsonUrl)
+        let decoder = JSONDecoder()
+        models = try decoder.decode([Breath].self, from: data)
+        print("models: \(models)")
+
+      } catch {
+        print("error: \(error)")
+      }
+    }
+  }
 }
 
