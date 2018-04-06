@@ -19,6 +19,7 @@
 		D50B4BA6205E62980052B829 /* BreathLessonInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4BA5205E62980052B829 /* BreathLessonInteractorInput.swift */; };
 		D50B4BA8205E62BA0052B829 /* BreathLessonInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4BA7205E62BA0052B829 /* BreathLessonInteractor.swift */; };
 		D50B4BAA205E63B10052B829 /* BreathLessonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4BA9205E63B10052B829 /* BreathLessonFactory.swift */; };
+		D50B4BAC205E8EC40052B829 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B4BAB205E8EC40052B829 /* UIColor+Hex.swift */; };
 		D52A4374205D74D100AA7CCF /* breath.json in Resources */ = {isa = PBXBuildFile; fileRef = D52A4351205D74D100AA7CCF /* breath.json */; };
 		D584F249205D798200DB4BBC /* Breath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584F248205D798200DB4BBC /* Breath.swift */; };
 		D584F24D205D81BA00DB4BBC /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584F24C205D81BA00DB4BBC /* SquareView.swift */; };
@@ -43,6 +44,7 @@
 		D50B4BA5205E62980052B829 /* BreathLessonInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonInteractorInput.swift; sourceTree = "<group>"; };
 		D50B4BA7205E62BA0052B829 /* BreathLessonInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonInteractor.swift; sourceTree = "<group>"; };
 		D50B4BA9205E63B10052B829 /* BreathLessonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathLessonFactory.swift; sourceTree = "<group>"; };
+		D50B4BAB205E8EC40052B829 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		D52A4351205D74D100AA7CCF /* breath.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breath.json; sourceTree = "<group>"; };
 		D584F248205D798200DB4BBC /* Breath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breath.swift; sourceTree = "<group>"; };
 		D584F24C205D81BA00DB4BBC /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D50B4B8A205E5A490052B829 /* UIView+LoadNib.swift */,
+				D50B4BAB205E8EC40052B829 /* UIColor+Hex.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				D50B4BA2205E622C0052B829 /* BreathLessonPresenter.swift in Sources */,
 				D5C0C016205D6D1B0001F262 /* BreathLessonViewController.swift in Sources */,
 				D50B4B9E205E61330052B829 /* BreathLessonViewInput.swift in Sources */,
+				D50B4BAC205E8EC40052B829 /* UIColor+Hex.swift in Sources */,
 				D50B4B92205E5D270052B829 /* DataLoaderServiceImpl.swift in Sources */,
 				D50B4BA0205E61410052B829 /* BreathLessonViewOutput.swift in Sources */,
 				D50B4BAA205E63B10052B829 /* BreathLessonFactory.swift in Sources */,

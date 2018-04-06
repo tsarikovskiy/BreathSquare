@@ -28,5 +28,7 @@ class BreathLessonViewController: UIViewController {
 }
 
 extension BreathLessonViewController: BreathLessonViewInput {
-
+  func updateBreathSquare(animations: [Breath]) {
+    breathView.update(animationViewModels: animations)
+  }
 }

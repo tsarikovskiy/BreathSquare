@@ -9,5 +9,5 @@
 import Foundation
 
 protocol BreathLessonViewInput: class {
-  
+  func updateBreathSquare(animations: [Breath])
 }

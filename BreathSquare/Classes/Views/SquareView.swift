@@ -10,10 +10,16 @@ import UIKit
 
 class SquareView: NibView {
 
-  @IBOutlet weak var stateLabel: UILabel!
-  @IBOutlet weak var durationLabel: UILabel!
+  @IBOutlet private weak var stateLabel: UILabel!
+  @IBOutlet private weak var durationLabel: UILabel!
   
   override func awakeFromNib() {
     super.awakeFromNib()
+  }
+}
+
+extension SquareView {
+  func update(animationViewModels: [Breath]) {
+
   }
 }

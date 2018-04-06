@@ -12,7 +12,11 @@ class BreathLessonPresenter {
   weak var view: BreathLessonViewInput!
   var interactor: BreathLessonInteractorInput!
 
-  var breathModels = [Breath]()
+  var breathModels = [Breath]() {
+    didSet {
+      view.updateBreathSquare(animations: breathModels)
+    }
+  }
 }
 
 extension BreathLessonPresenter: BreathLessonViewOutput {
@@ -29,6 +33,7 @@ extension BreathLessonPresenter: BreathLessonInteractorOutput {
 
     case .success(let models):
       breathModels = models
+
 
     case .failure(let error):
       print("Error = \(String(describing: error))")
